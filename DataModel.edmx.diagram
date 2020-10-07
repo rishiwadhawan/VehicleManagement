@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2b8d101113d94e5a8b26f09f61701569" Name="Diagram1">
+        <EntityTypeShape EntityType="VehiclesDBModel.customer" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="VehiclesDBModel.feature" Width="1.5" PointX="5.25" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VehiclesDBModel.vehicleFeature" Width="1.5" PointX="7.5" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VehiclesDBModel.vehicleMake" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="VehiclesDBModel.vehicleModel" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="VehiclesDBModel.vehicle" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="VehiclesDBModel.vendor" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <AssociationConnector Association="VehiclesDBModel.FK__vehicleFe__featu__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="VehiclesDBModel.FK__vehicleFe__vehic__1FCDBCEB" ManuallyRouted="false" />
+        <AssociationConnector Association="VehiclesDBModel.FK__vehicleMo__makeI__164452B1" ManuallyRouted="false" />
+        <AssociationConnector Association="VehiclesDBModel.FK__vehicles__modelI__1920BF5C" ManuallyRouted="false" />
+        <AssociationConnector Association="VehiclesDBModel.FK__vehicles__vendor__1A14E395" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
